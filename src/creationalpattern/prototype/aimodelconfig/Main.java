@@ -10,6 +10,8 @@ public class Main {
         System.out.println(imageModel);
         ImageModel i2=(ImageModel) imageModel.clone();
 
+        System.out.println(imageModel.equals(i2));
+
         System.out.println("this is image model two:"+i2);
 
     }
